@@ -1,0 +1,159 @@
+# Production Configuration for Quantum Malware Detector
+
+# System Configuration
+system:
+  max_workers: 16
+  batch_size: 100
+  max_queue_size: 50000
+  enable_gpu: false
+  memory_limit_gb: 32
+
+# Quantum Neural Network Configuration
+qnn:
+  architecture:
+    # Layer configuration: (n_inputs, n_neurons, n_qubits)
+    - [100, 64, 4]
+    - [64, 32, 4]
+    - [32, 16, 4]
+    - [16, 2, 4]
+
+  training:
+    learning_rate: 0.01
+    epochs: 100
+    batch_size: 32
+    validation_split: 0.2
+
+  optimization:
+    use_entanglement: true
+    quantum_gates: ['HADAMARD', 'CNOT', 'TOFFOLI']
+    measurement_shots: 1000
+
+# Detection Configuration
+detection:
+  # Thresholds
+  threat_threshold: 0.7
+  polymorphic_threshold: 0.6
+  metamorphic_threshold: 0.5
+  entropy_threshold: 7.0
+
+  # Analysis depth
+  max_file_size_mb: 100
+  deep_scan: true
+  heuristic_analysis: true
+  behavioral_analysis: false  # Requires sandbox
+
+  # Evasion detection
+  detect_packing: true
+  detect_obfuscation: true
+  detect_polymorphism: true
+  detect_metamorphism: true
+  detect_self_modification: true
+
+# Encryption Configuration
+encryption:
+  enabled: true
+  algorithm: 'LATTICE_HYBRID'
+  key_length: 256
+  quantum_key_distribution: true
+  session_timeout_minutes: 60
+
+# File Processing Configuration
+file_processing:
+  # Supported file types
+  scan_extensions:
+    - '.exe'
+    - '.dll'
+    - '.so'
+    - '.dylib'
+    - '.bin'
+    - '.elf'
+    - '.apk'
+    - '.jar'
+    - '.class'
+    - '.py'
+    - '.js'
+    - '.php'
+    - '.sh'
+    - '.bat'
+    - '.ps1'
+
+  # Excluded paths
+  exclude_paths:
+    - '/proc'
+    - '/sys'
+    - '/dev'
+    - '/tmp/.X11-unix'
+
+  # Polyglot detection
+  polyglot_detection: true
+  signature_verification: true
+  multi_language_analysis: true
+
+# Logging Configuration
+logging:
+  level: 'INFO'
+  file: '/var/log/qnn_malware_detector.log'
+  max_size_mb: 100
+  backup_count: 5
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  enable_syslog: true
+  syslog_address: '/dev/log'
+
+# Database Configuration
+database:
+  threat_db_path: '/var/lib/qnn_detector/threat_database.db'
+  signature_db_path: '/var/lib/qnn_detector/signatures.db'
+  cache_size_mb: 1024
+  auto_update: true
+  update_interval_hours: 24
+
+# Performance Configuration
+performance:
+  enable_profiling: false
+  cache_enabled: true
+  cache_size_mb: 2048
+  parallel_processing: true
+  use_memory_mapping: true
+  prefetch_enabled: true
+
+# Alerting Configuration
+alerting:
+  enabled: true
+  critical_threshold: 0.9
+  email_notifications: false
+  syslog_alerts: true
+  webhook_url: null
+
+# API Configuration (for REST API deployment)
+api:
+  enabled: false
+  host: '0.0.0.0'
+  port: 8443
+  ssl_enabled: true
+  cert_file: '/etc/ssl/certs/qnn_detector.crt'
+  key_file: '/etc/ssl/private/qnn_detector.key'
+  rate_limit: 1000  # requests per hour per IP
+  auth_required: true
+
+# Monitoring Configuration
+monitoring:
+  enabled: true
+  metrics_port: 9090
+  health_check_interval: 60
+  export_prometheus: true
+  export_grafana: true
+
+# Quarantine Configuration
+quarantine:
+  enabled: true
+  path: '/var/quarantine/qnn_detector'
+  max_size_gb: 10
+  auto_delete_days: 30
+  encrypt_quarantine: true
+
+# Updates Configuration
+updates:
+  auto_update_models: true
+  update_server: 'https://updates.quantum-security.org'
+  check_interval_hours: 6
+  verify_signatures: true
