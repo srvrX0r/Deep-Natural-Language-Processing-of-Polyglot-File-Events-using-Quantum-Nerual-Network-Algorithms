@@ -37,10 +37,30 @@ extensions = [
         language='c++'
     ),
 
+    # Advanced Quantum Neural Networks
+    Extension(
+        'src.qnn_core.advanced_quantum',
+        sources=['src/qnn_core/advanced_quantum.pyx'],
+        include_dirs=[np.get_include()],
+        extra_compile_args=extra_compile_args,
+        extra_link_args=extra_link_args,
+        language='c++'
+    ),
+
     # Polymorphic Malware Detector
     Extension(
         'src.malware_detection.polymorphic_detector',
         sources=['src/malware_detection/polymorphic_detector.pyx'],
+        include_dirs=[np.get_include()],
+        extra_compile_args=extra_compile_args,
+        extra_link_args=extra_link_args,
+        language='c++'
+    ),
+
+    # Advanced Malware Detection
+    Extension(
+        'src.malware_detection.advanced_detection',
+        sources=['src/malware_detection/advanced_detection.pyx'],
         include_dirs=[np.get_include()],
         extra_compile_args=extra_compile_args,
         extra_link_args=extra_link_args,
@@ -78,7 +98,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='quantum-malware-detector',
-    version='1.0.0',
+    version='2.0.0',
     author='Quantum Security Research Team',
     author_email='security@quantum-research.org',
     description='Production-ready Quantum Neural Network Malware Detection System',
@@ -122,6 +142,7 @@ setup(
     entry_points={
         'console_scripts': [
             'qnn-scan=src.qnn_malware_detector:main',
+            'qnn-scan-advanced=src.advanced_qnn_detector:main',
         ],
     },
     zip_safe=False,

@@ -12,6 +12,19 @@ from .quantum_layer import (
     quantum_entanglement_measure
 )
 
+try:
+    from .advanced_quantum import (
+        VariationalQuantumCircuit,
+        QuantumConvolutionalNetwork,
+        QuantumAttentionMechanism,
+        QuantumResidualBlock,
+        HybridQuantumClassicalNetwork,
+        quantum_feature_encoding
+    )
+    ADVANCED_AVAILABLE = True
+except ImportError:
+    ADVANCED_AVAILABLE = False
+
 __all__ = [
     'QuantumGate',
     'QuantumNeuron',
@@ -20,3 +33,13 @@ __all__ = [
     'quantum_fourier_transform',
     'quantum_entanglement_measure'
 ]
+
+if ADVANCED_AVAILABLE:
+    __all__.extend([
+        'VariationalQuantumCircuit',
+        'QuantumConvolutionalNetwork',
+        'QuantumAttentionMechanism',
+        'QuantumResidualBlock',
+        'HybridQuantumClassicalNetwork',
+        'quantum_feature_encoding'
+    ])
