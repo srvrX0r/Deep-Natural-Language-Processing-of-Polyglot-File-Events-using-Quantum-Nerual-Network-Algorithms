@@ -99,8 +99,8 @@ with open('README.md', 'r', encoding='utf-8') as f:
 setup(
     name='quantum-malware-detector',
     version='2.0.0',
-    author='Quantum Security Research Team',
-    author_email='security@quantum-research.org',
+    author='srvrX0r',
+    author_email='rc9000x3d@protonmail.me',
     description='Production-ready Quantum Neural Network Malware Detection System',
     long_description=long_description,
     long_description_content_type='text/markdown',
