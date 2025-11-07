@@ -455,8 +455,8 @@ If you use this advanced detector in research, please cite:
 ```bibtex
 @software{quantum_malware_detector_v2,
   title = {Advanced Quantum Neural Network Malware Detector v2.0},
-  author = {Quantum Security Research Team},
-  year = {2025},
+  author = {srvrX0r},
+  year = {2023},
   url = {https://github.com/your-org/quantum-malware-detector},
   note = {Production-ready quantum-enhanced malware detection system}
 }
@@ -476,4 +476,4 @@ For advanced feature support:
 ---
 
 **Version 2.0** - Advanced Quantum Neural Network Malware Detector
-Quantum Security Research Team © 2025
+srvrX0r © 2023 
