@@ -300,13 +300,20 @@ python setup.py build_ext --inplace
 
 ## Contributing
 
-We welcome contributions to this research project! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions to this research project! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for complete guidelines.
+
+**Quick Start for Contributors:**
+1. Fork the repository on GitHub
+2. Create a feature branch in your fork with any name you like
+3. Make your changes and submit a Pull Request
+4. GitHub automatically handles branch targeting - you don't need to worry about upstream branch names!
 
 **Important Notes:**
 - All contributions are subject to review by the sole proprietor, Rodrigo Coll (@srvrX0r)
 - Contributors retain copyright on their contributions while granting rights under Apache 2.0
 - Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing
 - For security vulnerabilities, see [SECURITY.md](SECURITY.md)
+- For repository administrators, see [.github/REPOSITORY_SETUP.md](.github/REPOSITORY_SETUP.md) for GitHub configuration
 
 This is a research project for advanced malware detection using quantum-inspired algorithms and high-performance computing.
 

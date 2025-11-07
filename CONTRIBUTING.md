@@ -41,6 +41,25 @@ This project adheres to a Code of Conduct that all contributors are expected to 
    git remote add upstream https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms.git
    ```
 
+4. Create your feature branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+   **Note**: You can use any branch name you like for your work! When you create a Pull Request, GitHub will automatically target the correct upstream branch.
+
+### Understanding the Repository Structure
+
+**Don't worry about the production branch name!**
+
+The repository uses an automated deployment branch for the production code. When you create a Pull Request from your fork, GitHub automatically handles targeting the correct branch. You should:
+
+- ✅ Fork the repository
+- ✅ Create feature branches with descriptive names (e.g., `feature/add-new-detector`, `bugfix/memory-leak`)
+- ✅ Submit Pull Requests from your feature branches
+- ✅ The maintainer will ensure PRs target the correct production branch
+
+You never need to directly reference or work with the production branch name!
+
 ## How to Contribute
 
 ### Types of Contributions
