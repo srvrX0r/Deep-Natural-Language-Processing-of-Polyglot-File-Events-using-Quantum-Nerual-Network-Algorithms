@@ -7,8 +7,10 @@ url: "https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-Fi
 repository-code: "https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms"
 license: Apache-2.0
 authors:
-  - family-names: "Quantum Security Research Team"
-    affiliation: "Quantum Security Research"
+  - family-names: "Coll"
+    given-names: "Rodrigo"
+    affiliation: "Independent Researcher / Sole Proprietor"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
 keywords:
   - quantum computing
   - neural networks
@@ -42,8 +44,9 @@ preferred-citation:
   type: software
   title: "Quantum Neural Network Malware Detector: Advanced Detection Using Quantum-Enhanced Machine Learning"
   authors:
-    - family-names: "Quantum Security Research Team"
-      affiliation: "Quantum Security Research"
+    - family-names: "Coll"
+      given-names: "Rodrigo"
+      affiliation: "Independent Researcher / Sole Proprietor"
   version: 2.0.0
   date-released: 2025-01-07
   url: "https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms"
