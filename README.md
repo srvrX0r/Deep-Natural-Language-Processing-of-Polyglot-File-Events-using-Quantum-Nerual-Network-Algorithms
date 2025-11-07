@@ -353,7 +353,7 @@ If you use this software in your research, please cite:
 @software{Coll_Quantum_Neural_Network_2025,
   author = {Coll, Rodrigo},
   title = {Quantum Neural Network Malware Detector},
-  year = {2025},
+  year = {2023},
   url = {https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms},
   version = {2.0.0}
 }
