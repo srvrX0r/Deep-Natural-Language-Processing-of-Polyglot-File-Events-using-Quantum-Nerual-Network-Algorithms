@@ -93,8 +93,8 @@ The system can detect:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/quantum-malware-detector.git
-cd quantum-malware-detector
+git clone https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms.git
+cd Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms
 
 # Run installation script
 bash scripts/install.sh
@@ -300,6 +300,14 @@ python setup.py build_ext --inplace
 
 ## Contributing
 
+We welcome contributions to this research project! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+**Important Notes:**
+- All contributions are subject to review by the sole proprietor, Rodrigo Coll (@srvrX0r)
+- Contributors retain copyright on their contributions while granting rights under Apache 2.0
+- Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing
+- For security vulnerabilities, see [SECURITY.md](SECURITY.md)
+
 This is a research project for advanced malware detection using quantum-inspired algorithms and high-performance computing.
 
 ## Security Notice
@@ -313,10 +321,42 @@ This software is designed for legitimate security research, defensive security o
 
 ## License
 
-See LICENSE file for details.
+Copyright © 2025 Rodrigo Coll (@srvrX0r). All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+See [LICENSE](LICENSE) file for complete terms and [COPYRIGHT.md](COPYRIGHT.md) for ownership details.
 
 ## Credits
+
+**Author:** Rodrigo Coll (@srvrX0r)
 
 Developed as part of research into quantum computing applications for cybersecurity, specifically targeting polyglot malware detection from endpoint security data sources (CrowdStrike, Microsoft Defender).
 
 The system integrates quantum-inspired neural networks with traditional malware analysis techniques to achieve superior detection of evasive threats.
+
+### Citation
+
+If you use this software in your research, please cite:
+
+```bibtex
+@software{Coll_Quantum_Neural_Network_2025,
+  author = {Coll, Rodrigo},
+  title = {Quantum Neural Network Malware Detector},
+  year = {2025},
+  url = {https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms},
+  version = {2.0.0}
+}
+```
+
+See [CITATION.cff](CITATION.cff) for more citation formats.
