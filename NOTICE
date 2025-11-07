@@ -1,0 +1,124 @@
+Quantum Neural Network Malware Detector
+Copyright © 2025 Rodrigo Coll (@srvrX0r)
+All Rights Reserved.
+
+SOLE PROPRIETORSHIP NOTICE:
+This software is the sole property of Rodrigo Coll, developed and maintained
+as a sole proprietorship. GitHub account: @srvrX0r
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+================================================================================
+
+This software contains the following components:
+
+1. Quantum Neural Network Core (src/qnn_core/)
+   Copyright © 2025 Rodrigo Coll
+   Licensed under Apache License 2.0
+
+2. Advanced Quantum Algorithms (src/qnn_core/advanced_quantum.pyx)
+   Copyright © 2025 Rodrigo Coll
+   Licensed under Apache License 2.0
+
+3. Malware Detection Engines (src/malware_detection/)
+   Copyright © 2025 Rodrigo Coll
+   Licensed under Apache License 2.0
+
+4. Quantum-Resistant Cryptography (src/crypto/)
+   Copyright © 2025 Rodrigo Coll
+   Licensed under Apache License 2.0
+
+5. File Event Processor (src/file_processor/)
+   Copyright © 2025 Rodrigo Coll
+   Licensed under Apache License 2.0
+
+================================================================================
+
+Third-Party Dependencies:
+
+This software uses the following third-party libraries:
+
+- NumPy (Copyright 2005-2024 NumPy Developers, BSD License)
+- SciPy (Copyright 2001-2024 SciPy Developers, BSD License)
+- Cython (Copyright Cython Developers, Apache License 2.0)
+- scikit-learn (Copyright 2007-2024 scikit-learn developers, BSD License)
+
+For complete license information of dependencies, see requirements.txt
+
+================================================================================
+
+Research Citations:
+
+If you use this software in academic research, please cite:
+
+  @software{quantum_malware_detector_v2,
+    title = {Quantum Neural Network Malware Detector v2.0},
+    author = {Rodrigo Coll},
+    year = {2025},
+    url = {https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms},
+    version = {2.0.0},
+    license = {Apache-2.0}
+  }
+
+================================================================================
+
+Patents and Intellectual Property:
+
+This software implements novel algorithms and techniques including:
+- Variational Quantum Circuits for malware detection
+- Quantum Convolutional Networks for code analysis
+- Quantum Attention Mechanisms for feature selection
+- Adaptive ensemble detection with quantum enhancement
+
+These implementations are released under Apache 2.0 license with the
+understanding that they represent original research and development.
+
+================================================================================
+
+Security Notice:
+
+This software is designed for legitimate security research, defensive
+security operations, and authorized security testing. Users must:
+
+1. Only analyze files they have authorization to scan
+2. Comply with all applicable laws and regulations
+3. Use responsibly in production environments
+4. Report security vulnerabilities through proper channels
+5. Not use for malicious purposes
+
+The authors and contributors assume no liability for misuse of this software.
+
+================================================================================
+
+Trademarks:
+
+"Quantum Neural Network Malware Detector" and associated logos are
+trademarks of the Quantum Security Research Team.
+
+================================================================================
+
+Contact Information:
+
+Project Repository: https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms
+Issue Tracker: https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms/issues
+Security Issues: Please report security vulnerabilities privately
+
+================================================================================
+
+Acknowledgments:
+
+This project was developed as part of research into quantum computing
+applications for cybersecurity, specifically targeting advanced malware
+detection in polyglot file events from endpoint security data sources.
+
+Special thanks to the open-source community and all contributors.

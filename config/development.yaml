@@ -1,0 +1,90 @@
+# Development Configuration for Quantum Malware Detector
+
+system:
+  max_workers: 4
+  batch_size: 10
+  max_queue_size: 1000
+  enable_gpu: false
+  memory_limit_gb: 8
+
+qnn:
+  architecture:
+    - [50, 32, 3]
+    - [32, 16, 3]
+    - [16, 2, 3]
+
+  training:
+    learning_rate: 0.01
+    epochs: 10
+    batch_size: 8
+    validation_split: 0.2
+
+  optimization:
+    use_entanglement: true
+    quantum_gates: ['HADAMARD', 'CNOT']
+    measurement_shots: 100
+
+detection:
+  threat_threshold: 0.5
+  polymorphic_threshold: 0.4
+  metamorphic_threshold: 0.4
+  entropy_threshold: 6.5
+  max_file_size_mb: 10
+  deep_scan: false
+  heuristic_analysis: true
+  behavioral_analysis: false
+
+encryption:
+  enabled: false
+  algorithm: 'LATTICE_HYBRID'
+  key_length: 128
+  quantum_key_distribution: false
+
+file_processing:
+  scan_extensions:
+    - '.exe'
+    - '.dll'
+    - '.py'
+    - '.js'
+  exclude_paths:
+    - '/proc'
+    - '/sys'
+  polyglot_detection: true
+
+logging:
+  level: 'DEBUG'
+  file: './logs/qnn_detector_dev.log'
+  max_size_mb: 10
+  backup_count: 2
+  enable_syslog: false
+
+database:
+  threat_db_path: './data/threat_db_dev.db'
+  signature_db_path: './data/signatures_dev.db'
+  cache_size_mb: 100
+  auto_update: false
+
+performance:
+  enable_profiling: true
+  cache_enabled: true
+  cache_size_mb: 256
+  parallel_processing: true
+
+alerting:
+  enabled: false
+
+api:
+  enabled: false
+
+monitoring:
+  enabled: false
+
+quarantine:
+  enabled: true
+  path: './quarantine'
+  max_size_gb: 1
+  auto_delete_days: 7
+  encrypt_quarantine: false
+
+updates:
+  auto_update_models: false

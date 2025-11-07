@@ -1,4 +1,135 @@
+# CODEOWNERS - Sole Proprietorship Declaration
+#
+# This file defines the sole owner and copyright holder of this repository.
+# All code, documentation, and intellectual property are owned exclusively by:
+#
+# OWNER: Rodrigo Coll
+# GITHUB: @srvrX0r
+# COPYRIGHT: © 2025 Rodrigo Coll. All Rights Reserved.
+# LICENSE: Apache License 2.0 (see LICENSE file)
+#
+# SOLE PROPRIETORSHIP NOTICE:
+# This repository and all its contents are the sole property of Rodrigo Coll.
+# The owner maintains exclusive rights to all code, algorithms, documentation,
+# and intellectual property contained herein, subject to the Apache 2.0 license.
+#
+# OWNERSHIP STRUCTURE:
+# - Legal Owner: Rodrigo Coll (Individual/Sole Proprietor)
+# - GitHub Account: @srvrX0r
+# - Copyright Holder: Rodrigo Coll
+# - All Rights Reserved except as granted by Apache License 2.0
+#
+# NO TRANSFER OF OWNERSHIP:
+# Contributions are accepted under the Apache 2.0 license, but do not
+# transfer ownership. All contributions become part of this work while
+# maintaining the contributor's copyright on their specific contributions,
+# with Rodrigo Coll retaining compilation copyright and sole proprietorship.
+#
+# CONTACT:
+# For ownership, licensing, or intellectual property inquiries:
+# GitHub: @srvrX0r
+# Repository: https://github.com/srvrX0r/Deep-Natural-Language-Processing-of-Polyglot-File-Events-using-Quantum-Nerual-Network-Algorithms
+#
+# =============================================================================
+# CODE OWNERSHIP ASSIGNMENTS
+# =============================================================================
+#
+# Default owner for everything in the repository
+# All files are owned and maintained by Rodrigo Coll (@srvrX0r)
 * @srvrX0r
-/auth/ @srvrX0r
-/isolation/ @srvrX0r
-/crypto/ @srvrX0r
+
+# Core source code - Sole ownership: Rodrigo Coll
+/src/ @srvrX0r
+/src/qnn_core/ @srvrX0r
+/src/malware_detection/ @srvrX0r
+/src/crypto/ @srvrX0r
+/src/file_processor/ @srvrX0r
+
+# Advanced quantum neural networks - Sole ownership: Rodrigo Coll
+/src/qnn_core/advanced_quantum.pyx @srvrX0r
+/src/malware_detection/advanced_detection.pyx @srvrX0r
+
+# Tests - Sole ownership: Rodrigo Coll
+/tests/ @srvrX0r
+
+# Configuration - Sole ownership: Rodrigo Coll
+/config/ @srvrX0r
+
+# Scripts - Sole ownership: Rodrigo Coll
+/scripts/ @srvrX0r
+
+# Documentation - Sole ownership: Rodrigo Coll
+*.md @srvrX0r
+/docs/ @srvrX0r
+
+# Legal and licensing files - Sole ownership: Rodrigo Coll
+/LICENSE @srvrX0r
+/NOTICE @srvrX0r
+/CODEOWNERS @srvrX0r
+
+# Build system - Sole ownership: Rodrigo Coll
+/setup.py @srvrX0r
+/Makefile @srvrX0r
+/requirements.txt @srvrX0r
+
+# Git configuration - Sole ownership: Rodrigo Coll
+/.github/ @srvrX0r
+/.gitignore @srvrX0r
+
+# All other files - Sole ownership: Rodrigo Coll
+/**/* @srvrX0r
+
+# =============================================================================
+# APPROVAL REQUIREMENTS
+# =============================================================================
+#
+# ALL pull requests require approval from @srvrX0r (Rodrigo Coll)
+# NO exceptions - owner approval is mandatory for all changes
+#
+# =============================================================================
+# INTELLECTUAL PROPERTY STATEMENT
+# =============================================================================
+#
+# The algorithms, implementations, and designs in this repository represent
+# original work and intellectual property of Rodrigo Coll, including but
+# not limited to:
+#
+# - Variational Quantum Circuit implementations
+# - Quantum Convolutional Network designs
+# - Quantum Attention Mechanisms
+# - Hybrid Quantum-Classical architectures
+# - Advanced detection algorithms
+# - Ensemble detection methods
+# - Adaptive thresholding systems
+# - Deep behavioral analysis techniques
+# - Quantum-resistant cryptography implementations
+#
+# These are released under Apache License 2.0 while maintaining copyright
+# ownership by Rodrigo Coll.
+#
+# =============================================================================
+# COPYRIGHT NOTICE
+# =============================================================================
+#
+# Copyright © 2025 Rodrigo Coll
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# =============================================================================
+# REVISION HISTORY
+# =============================================================================
+#
+# 2025-01-07: Established sole proprietorship - Rodrigo Coll (@srvrX0r)
+# 2025-01-06: Repository created - Rodrigo Coll (@srvrX0r)
+#
+# =============================================================================

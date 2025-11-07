@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Cython
+*.c
+*.cpp
+*.html
+src/**/*.c
+src/**/*.cpp
+src/**/*.html
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# Data
+data/
+*.db
+*.json
+models/*.model
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Configuration (keep templates)
+!config/*.yaml
+
+# Quarantine
+quarantine/
+
+# System
+/var/lib/qnn_detector/
+/var/log/qnn_detector/
+/var/quarantine/qnn_detector/
