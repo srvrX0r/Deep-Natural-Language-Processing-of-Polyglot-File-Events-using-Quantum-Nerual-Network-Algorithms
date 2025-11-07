@@ -112,5 +112,5 @@ src/**/*.html linguist-generated=true
 CHANGELOG.md merge=union
 
 # LFS (Large File Storage) - if needed in future
-# *.model filter=lfs diff=lfs merge=lfs -text
-# *.db filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
